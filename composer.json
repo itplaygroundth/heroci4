@@ -1,6 +1,8 @@
 {
     "require": {
-        "php": "8.0.11",
-        "ext-mysqli": "*"
-    }
-}
+      "ext-mysqli": "*"
+    },
+     "require-dev": {
+        "heroku/heroku-buildpack-php": "*"
+     }
+  }
